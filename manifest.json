@@ -1,6 +1,7 @@
 {
  "name": "Turma 2G",
  "short_name": "Turma 2G",
+ "display": "standalone",
  "icons": [
   {
    "src": "img/appicon/android-icon-36x36.png",

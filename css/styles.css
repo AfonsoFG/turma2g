@@ -83,6 +83,10 @@ table {
     border: 1px solid #3F704D !important;
 }
 
+table tr td:first-child {
+    width: 33%
+}
+
 th, tr {
     height: 70px;
 }

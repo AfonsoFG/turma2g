@@ -1,4 +1,4 @@
-# Horário 2º Ano Turma G do Centro escolar de Penafiel
+# Horário 2º Ano Turma G do Centro Escolar de Penafiel
 
 ## Informação
 Toda a informação em downloads/HorarioTurma2G.pdf

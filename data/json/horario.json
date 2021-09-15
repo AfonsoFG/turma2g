@@ -1,0 +1,15 @@
+{
+	"days": [
+		{
+            "Monday": ["pt", "ae", "ae",  "mu", "af", "en"]
+		}, {
+            "Tuesday": ["pt", "pt", "em", "mt", "mt", "ea"]
+		}, {
+            "Wednesday": ["mt", "mt", "pt", "pt", "em", "ef"]
+		}, {
+            "Thursday": ["pt", "oc", "em", "mt", "mt", "mu"]
+		}, {
+            "Friday": ["pt", "pt", "ea", "mt", "mt", "en"]
+		}
+	]
+}

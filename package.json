@@ -1,0 +1,22 @@
+{
+  "name": "HorarioEscolar",
+  "version": "0.1.0",
+  "description": "Horário escolar em view webapp",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "escola",
+    "horário"
+  ],
+  "author": "Afonso Ferreira Gomes http://afonsogomes.com",
+  "license": "bc-nc-sa-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AfonsoFG/HorarioEscolar.git"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

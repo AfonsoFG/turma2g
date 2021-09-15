@@ -1,0 +1,223 @@
+/*! Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/) */
+/*! Bootstrap v3.4.1 (https://getbootstrap.com/) Copyright 2011-2019 Twitter, Inc.Licensed under MIT */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}a:active,a:hover{outline:0}svg:not(:root){overflow:hidden}select{color:inherit;font:inherit;margin:0;text-transform:none;font-family:inherit;font-size:inherit;line-height:inherit}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}a{text-decoration:none;font-weight:700;color:#73AF00;transition:all 0.3s ease-out}a:hover,a:focus{color:#FF4B55;box-shadow:0 3px #FF4B55}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto; margin-top:20px}.row{margin-right:-15px;margin-left:-15px}.col{position:relative;min-height:1px;padding-right:15px;padding-left:15px;width:100%;display:inline-block;vertical-align:middle;float:none;max-height:550px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px;margin-top:50px}}@media (min-width:1200px){.container{width:1170px}}@media (min-width:992px){.col{float:left;width:50%}}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}.center-block{display:block;margin-right:auto;margin-left:auto}
+
+/* CUSTOM */
+.col100 {
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.col50 {
+    width: 50%;
+    margin: 0 auto
+}
+
+body, html {
+    overflow-x: hidden;
+    color: #285161;
+    background: linear-gradient(135deg, #5CAD85 10%, #339966 100%);
+    height: 100%
+}
+
+h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 2em;
+    font-style: oblique;
+    text-transform: uppercase;
+    color: #FFF
+}
+
+h2 {
+    line-height: 420px;
+}
+
+p,
+label {
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+
+select {
+    display: block;
+    border: 1px solid #3F704D;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #3F704D;
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 5px
+}
+
+.selectDay{
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.changeTheme {
+    margin-bottom: 20px;
+    margin-top: 40px
+}
+
+.changeTheme span:first-of-type {
+    margin-right: 20px
+}
+
+span {
+    color: #3F704D;
+    font-weight: 700;
+    transition: all 300ms;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #3F704D !important;
+}
+
+th, tr {
+    height: 70px;
+}
+
+table th {
+    background: none
+}
+
+table tr:not(:last-of-type) {
+    border-bottom: 3px dotted #3F704D
+}
+
+table tr:nth-child(3) {
+    border-bottom: 3px dashed #3F704D
+}
+
+table tr td {
+    border-left: 1px solid #3F704D;
+    border-right: 1px solid #3F704D
+}
+
+table span {
+    font-weight: bold;
+    padding-left: 20px
+}
+
+tr td:first-child {
+    width: 50%;
+    font-size: 1.15em
+}
+
+img {
+    width: 50px;
+    height: 51px;
+    vertical-align: middle;
+}
+
+.aec img{
+    border: 3px solid purple;
+    border-radius: 50%;
+    width: 51px;
+}
+
+
+
+#hideAECs,
+#hideLabels {
+    color: #3F704D;
+    display: block;
+    position: relative;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: left
+  }
+  
+  
+  #hideLabels {
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 0;
+    float: right
+  }
+
+  /* Hide the browser's default checkbox */
+  #hideAECs input,
+    #hideLabels input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #3F704D
+  }
+  
+  #hideLabels .checkmark {
+      right: 0;
+      left: initial
+  }
+
+  /* On mouse-over, add a grey background color */
+  .hideAECs:hover input ~ .checkmark,
+    .hideLabels:hover input ~ .checkmark {
+    background-color: #3F704D;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  #hideAECs input:checked ~ .checkmark,
+    #hideLabels input:checked ~ .checkmark {
+    background-color: #3F704D;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .hideAECs:after,
+.hideLabels:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  #hideAECs input:checked ~ .checkmark:after,
+  #hideLabels input:checked ~ .checkmark:after {
+    display: block;
+    content: ''
+  }
+  
+/* Style the checkmark/indicator */
+#hideAECs .checkmark:after,
+#hideLabels .checkmark:after {
+    position: absolute;
+    left: 7px;
+    top: 1px;
+    width: 9px;
+    height: 18px;
+    border: solid #FFF;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 

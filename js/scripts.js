@@ -4,6 +4,7 @@ async function getHorarioJson(path, callback) {
 
 let changeDay = day => getHorarioJson('data/json/horario.json', (json) => {
     const weekDays = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
+    const optionsDiv = document.getElementById("options");
     let horarioDoDia = json.days.filter(
         (item) => {
             if (day % 6 !== 0) {
@@ -14,8 +15,10 @@ let changeDay = day => getHorarioJson('data/json/horario.json', (json) => {
 
     if (horarioDoDia[0]) {
         renderTable(horarioDoDia[0][weekDays[day]])
+        optionsDiv.style.display = "block";
     } else {
         renderEmptyTable();
+        optionsDiv.style.display = "none";
     }
 });
 

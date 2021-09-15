@@ -1,7 +1,9 @@
 {
  "name": "Turma 2G",
  "short_name": "Turma 2G",
- "display": "standalone",
+ "display": "fullscreen",
+ "description": "Horário 2º Ano Turma G do Centro Escolar de Penafiel",
+ "start_url": "/index.html",
  "icons": [
   {
    "src": "img/appicon/android-icon-36x36.png",

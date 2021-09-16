@@ -1,9 +1,9 @@
 var cacheName = 'horario2g-pwa';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/scripts.js'
+  '/turma2g/',
+  '/turma2g/index.html',
+  '/turma2g/css/styles.css',
+  '/turma2g/js/scripts.js'
 ];
 
 /* Start the service worker and cache all of the app's content */

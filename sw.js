@@ -2,7 +2,7 @@ var cacheName = 'horario2g-pwa';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/style.css',
+  '/css/styles.css',
   '/js/scripts.js'
 ];
 

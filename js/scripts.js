@@ -77,9 +77,9 @@ let renderTable = data => {
             const className = renderName(val);
 
             if (aec) {
-                elem.cells[1].innerHTML = '<div class="aec"><img src="img/icones/' + val + '.svg"><span>' + className + '</span></div>'
+                elem.cells[1].innerHTML = '<div class="aec"><img alt="" src="img/icones/' + val + '.svg"><span>' + className + '</span></div>'
             } else {
-                elem.cells[1].innerHTML = '<div><img src="img/icones/' + val + '.svg"><span>' + className + '</span><div>'
+                elem.cells[1].innerHTML = '<div><img alt="" src="img/icones/' + val + '.svg"><span>' + className + '</span><div>'
             }
 
         }

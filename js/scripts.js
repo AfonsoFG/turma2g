@@ -1,11 +1,35 @@
+const horarioObj = {
+	"days": [
+		{
+            "Monday": ["pt", "ae", "ae",  "mu", "af", "en"]
+		}, {
+            "Tuesday": ["pt", "pt", "em", "mt", "mt", "ea"]
+		}, {
+            "Wednesday": ["mt", "mt", "pt", "pt", "em", "ef"]
+		}, {
+            "Thursday": ["pt", "oc", "em", "mt", "mt", "mu"]
+		}, {
+            "Friday": ["pt", "pt", "ea", "mt", "mt", "en"]
+		}
+	]
+};
+
+/*
+// Já não é necessário pedir novo horário a cada chamada...
 async function getHorarioJson(path, callback) {
     return callback(await fetch(path).then(r => r.json()));
 }
-
 let changeDay = day => getHorarioJson('data/json/horario.json', (json) => {
+    // ...
+});
+*/
+
+let changeDay = day => {
+
+    
     const weekDays = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
     const optionsDiv = document.getElementById("options");
-    let horarioDoDia = json.days.filter(
+    let horarioDoDia = horarioObj.days.filter(
         (item) => {
             if (day % 6 !== 0) {
                 return item[weekDays[day]];
@@ -20,7 +44,7 @@ let changeDay = day => getHorarioJson('data/json/horario.json', (json) => {
         renderEmptyTable();
         optionsDiv.style.display = "none";
     }
-});
+};
 
 let renderTable = data => {
     const table = document.getElementsByTagName("table")[0];

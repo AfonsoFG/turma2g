@@ -1,4 +1,12 @@
-const horarioObj = {
+window.onload = () => {
+    'use strict';
+  
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+}
+  
+  const horarioObj = {
 	"days": [
 		{
             "Monday": ["pt", "ae", "ae",  "mu", "af", "en"]

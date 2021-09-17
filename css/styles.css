@@ -36,9 +36,10 @@ body, html {
 }
 
 h1 {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', sans-serif;
     font-size: 2em;
     font-style: oblique;
+    font-weight: 700;
     text-transform: uppercase;
     color: #FFF
 }

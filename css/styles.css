@@ -29,7 +29,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 body, html {
-    background: linear-gradient(135deg, #5CAD85 10%, #339966 100%);
+    background: linear-gradient(0, #5CAD85 10%, #339966 100%);
     overflow-x: hidden;
     color: #3F704D;
     height: 100%

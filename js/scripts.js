@@ -2,10 +2,10 @@ window.onload = () => {
     'use strict';
   
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js');
+        navigator.serviceWorker.register('./sw.js');
     }
 
-    document.body.style.height = document.documentElement.clientHeight;
+    document.body.style.height = document.documentElement.clientHeight + 'px';
 }
   
   const horarioObj = {
@@ -35,8 +35,6 @@ let changeDay = day => getHorarioJson('data/json/horario.json', (json) => {
 */
 
 let changeDay = day => {
-
-    
     const weekDays = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
     const optionsDiv = document.getElementById("options");
     let horarioDoDia = horarioObj.days.filter(

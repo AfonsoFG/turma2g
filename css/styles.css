@@ -28,16 +28,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     margin: 0 auto
 }
 
-.bgfix {
-    background: linear-gradient(135deg, #5CAD85 10%, #339966 100%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
 body, html {
+    background: linear-gradient(135deg, #5CAD85 10%, #339966 100%);
     overflow-x: hidden;
     color: #3F704D;
     height: 100%

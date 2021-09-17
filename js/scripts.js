@@ -4,6 +4,8 @@ window.onload = () => {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js');
     }
+
+    document.body.style.height = document.documentElement.clientHeight;
 }
   
   const horarioObj = {

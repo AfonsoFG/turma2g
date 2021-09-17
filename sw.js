@@ -3,7 +3,18 @@ var filesToCache = [
   '/turma2g/',
   '/turma2g/index.html',
   '/turma2g/css/styles.css',
-  '/turma2g/js/scripts.js'
+  '/turma2g/js/scripts.js',
+  '/turma2g/fonts/Baloo2-ExtraBold.woff2',
+  '/turma2g/img/icones/ae.svg',
+  '/turma2g/img/icones/af.svg',
+  '/turma2g/img/icones/ea.svg',
+  '/turma2g/img/icones/ef.svg',
+  '/turma2g/img/icones/em.svg',
+  '/turma2g/img/icones/en.svg',
+  '/turma2g/img/icones/mt.svg',
+  '/turma2g/img/icones/mu.svg',
+  '/turma2g/img/icones/oc.svg',
+  '/turma2g/img/icones/pt.svg',
 ];
 
 /* Start the service worker and cache all of the app's content */

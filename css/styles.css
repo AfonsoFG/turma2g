@@ -28,6 +28,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     margin: 0 auto
 }
 
+.container {
+    height:
+}
+
 body, html {
     background: linear-gradient(0, #5CAD85 10%, #339966 100%);
     overflow-x: hidden;
